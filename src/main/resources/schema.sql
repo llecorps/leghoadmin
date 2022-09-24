@@ -1,0 +1,13 @@
+DROP TABLE IF EXISTS listuser;
+
+
+
+CREATE TABLE listuser (
+  id INT NOT NULL PRIMARY KEY ,
+  username VARCHAR(500) DEFAULT NULL,
+  client VARCHAR(500) DEFAULT NULL,
+  login VARCHAR(500) DEFAULT NULL
+
+);
+
+

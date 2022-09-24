@@ -1,0 +1,18 @@
+p {
+    color: rgb(195, 195, 195);
+}
+
+h2 {
+    font-family: cursive;
+    color: rgb(195, 195, 195);
+}
+
+nav {
+    background-color: transparent !important;
+}
+
+#background {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
