@@ -21,6 +21,7 @@ public class ClientController {
         return "index";
 
     }
+
     @RequestMapping("/listuser")
     public String listuser(Model model)
     {
