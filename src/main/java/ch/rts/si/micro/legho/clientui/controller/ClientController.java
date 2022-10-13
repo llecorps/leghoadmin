@@ -34,4 +34,12 @@ public class ClientController {
     public String login() {
         return "login";
     }
+
+    @RequestMapping("/bash")
+    public String bash(Model model)
+    {
+
+        return "bash";
+
+    }
 }
